@@ -10,3 +10,11 @@ alunos.splice(2,2, "Sophia"); // remove o João que esta no inicice 2 e como o s
 
 console.log(alunos);
 
+const peixes =["Tubarão","Baleia","Golfinho", "Boto Rosa"];
+
+peixes.splice(1,0,"Peixe Palhaço");
+
+console.log(peixes);
+peixes.splice(3,2, "Polvo");
+console.log(peixes);
+
